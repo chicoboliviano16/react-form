@@ -78,6 +78,8 @@ export default class UserForms extends Component {
                     )
             case 4: 
                 return <Success/>
+
+                default: return
         }
     }
 }
